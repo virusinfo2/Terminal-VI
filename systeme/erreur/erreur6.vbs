@@ -1,0 +1,1 @@
+MsgBox "Erreur : Impossible de décompresser le module pour l'installation.", vbCritical + vbOKOnly, "Erreur d'installation"

@@ -1,0 +1,1 @@
+MsgBox "Erreur du Packages: Le Packages est pas installer.", vbCritical + vbOKOnly, "Erreur du Packages"

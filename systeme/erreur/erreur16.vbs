@@ -1,0 +1,1 @@
+MsgBox "Erreur : Le VPN ne fonctionne pas correctement. Votre IP reste inchangée.", vbCritical + vbOKOnly, "Erreur du VPN"
