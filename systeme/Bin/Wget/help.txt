@@ -1,0 +1,170 @@
+Options Générales
+-V, --version : Affiche la version de Wget et quitte.
+-h, --help : Affiche l'aide et les options disponibles.
+-b, --background : Lance Wget en arrière-plan après le démarrage.
+-e, --execute=COMMAND : Exécute une commande de style .wgetrc (fichier de configuration de Wget).
+Journalisation et Fichiers d'Entrée
+-o, --output-file=FILE : Enregistre les messages dans le fichier spécifié FILE.
+-a, --append-output=FILE : Ajoute les messages à la fin du fichier FILE.
+-d, --debug : Affiche beaucoup d'informations de débogage.
+-q, --quiet : Mode silencieux (aucune sortie).
+-v, --verbose : Mode verbeux (affichage détaillé, c'est le mode par défaut).
+-nv, --no-verbose : Désactive le mode verbeux sans être complètement silencieux.
+--report-speed=TYPE : Affiche la bande passante comme TYPE. TYPE peut être en bits ou en octets.
+-i, --input-file=FILE : Télécharge les URLs trouvées dans le fichier local ou externe FILE.
+--input-metalink=FILE : Télécharge les fichiers couverts dans le fichier Metalink local FILE.
+-F, --force-html : Traite le fichier d'entrée comme HTML.
+-B, --base=URL : Résout les liens dans le fichier HTML d'entrée (-i -F) par rapport à l'URL spécifiée.
+--config=FILE : Spécifie le fichier de configuration à utiliser.
+--no-config : Ne pas lire de fichier de configuration.
+--rejected-log=FILE : Enregistre les raisons du rejet des URLs dans le fichier FILE.
+Téléchargement
+-t, --tries=NUMBER : Définit le nombre de tentatives à NUMBER (0 pour illimité).
+--retry-connrefused : Réessaie même si la connexion est refusée.
+--retry-on-host-error : Considère les erreurs d'hôte comme non fatales, et temporaires.
+--retry-on-http-error=ERRORS : Liste des erreurs HTTP à réessayer, séparées par des virgules.
+-O, --output-document=FILE : Écrit les documents dans le fichier FILE.
+-nc, --no-clobber : Ignore les téléchargements qui écraseraient des fichiers existants.
+--no-netrc : Ne pas essayer d'obtenir des informations d'identification depuis le fichier .netrc.
+-c, --continue : Reprend le téléchargement d'un fichier partiellement téléchargé.
+--start-pos=OFFSET : Commence le téléchargement depuis la position OFFSET.
+--progress=TYPE : Sélectionne le type de jauge de progression.
+--show-progress : Affiche la barre de progression en tout mode de verbosité.
+-N, --timestamping : Ne pas re-télécharger les fichiers sauf s'ils sont plus récents que ceux locaux.
+--no-if-modified-since : Ne pas utiliser les requêtes conditionnelles if-modified-since en mode timestamping.
+--no-use-server-timestamps : Ne pas définir le timestamp local du fichier en fonction de celui du serveur.
+-S, --server-response : Affiche la réponse du serveur.
+--spider : Ne télécharge rien, vérifie simplement l'existence des URLs.
+-T, --timeout=SECONDS : Définit toutes les valeurs de timeout à SECONDS.
+--dns-servers=ADDRESSES : Liste des serveurs DNS à interroger (séparés par des virgules).
+--bind-dns-address=ADDRESS : Lie le résolveur DNS à l'adresse ADDRESS (nom d'hôte ou IP) sur l'hôte local.
+--dns-timeout=SECS : Définit le timeout de recherche DNS à SECS.
+--connect-timeout=SECS : Définit le timeout de connexion à SECS.
+--read-timeout=SECS : Définit le timeout de lecture à SECS.
+-w, --wait=SECONDS : Attends SECONDS entre les récupérations (s'applique si plus d'une URL est récupérée).
+--waitretry=SECONDS : Attend entre 1 et SECONDS entre les tentatives de récupération (s'applique si plus d'une URL est récupérée).
+--random-wait : Attend entre 0,5WAIT et 1,5WAIT secondes entre les récupérations (s'applique si plus d'une URL est récupérée).
+--no-proxy : Désactive explicitement le proxy.
+-Q, --quota=NUMBER : Définit un quota de récupération à NUMBER.
+--bind-address=ADDRESS : Lie à l'adresse ADDRESS (nom d'hôte ou IP) sur l'hôte local.
+--limit-rate=RATE : Limite le taux de téléchargement à RATE.
+--no-dns-cache : Désactive la mise en cache des recherches DNS.
+--restrict-file-names=OS : Restrict les caractères dans les noms de fichiers aux caractères autorisés par le système d'exploitation (OS).
+--ignore-case : Ignore la casse lors de la correspondance des fichiers/répertoires.
+-4, --inet4-only : Se connecte uniquement aux adresses IPv4.
+-6, --inet6-only : Se connecte uniquement aux adresses IPv6.
+--prefer-family=FAMILY : Se connecte d'abord aux adresses de la famille spécifiée, l'une des IPv6, IPv4, ou none.
+--user=USER : Définit l'utilisateur FTP et HTTP à USER.
+--password=PASS : Définit le mot de passe FTP et HTTP à PASS.
+--ask-password : Demande le mot de passe.
+--use-askpass=COMMAND : Spécifie un gestionnaire d'identifiants pour demander le nom d'utilisateur et le mot de passe. Si aucun COMMAND n'est spécifié, la variable d'environnement WGET_ASKPASS ou SSH_ASKPASS est utilisée.
+--no-iri : Désactive la prise en charge des IRI (Internationalized Resource Identifiers).
+--local-encoding=ENC : Utilise ENC comme encodage local pour les IRI.
+--remote-encoding=ENC : Utilise ENC comme encodage par défaut pour les ressources distantes.
+--unlink : Supprime le fichier avant l'écrasement.
+--keep-badhash : Conserve les fichiers avec une discordance de somme de contrôle (ajoute .badhash).
+--metalink-index=NUMBER : Ordre de l'index Metalink application/metalink4+xml dans le numéro NUMBER.
+--metalink-over-http : Utilise les métadonnées Metalink des en-têtes de réponse HTTP.
+--preferred-location : Lieu préféré pour les ressources Metalink.
+Options de Répertoire
+-nd, --no-directories : Ne crée pas de répertoires.
+-x, --force-directories : Force la création de répertoires.
+-nH, --no-host-directories : Ne crée pas de répertoires d'hôte.
+--protocol-directories : Utilise le nom du protocole dans les répertoires.
+-P, --directory-prefix=PREFIX : Sauvegarde les fichiers dans PREFIX/.
+--cut-dirs=NUMBER : Ignore NUMBER de composants de répertoires distants.
+Options HTTP
+--http-user=USER : Définit l'utilisateur HTTP à USER.
+--http-password=PASS : Définit le mot de passe HTTP à PASS.
+--no-cache : Désactive les données mises en cache par le serveur.
+--default-page=NAME : Change le nom de la page par défaut (normalement index.html).
+-E, --adjust-extension : Enregistre les documents HTML/CSS avec les extensions appropriées.
+--ignore-length : Ignore le champ d'en-tête Content-Length.
+--header=STRING : Insère STRING parmi les en-têtes.
+--compression=TYPE : Choisit la compression, l'une des auto, gzip, et none (par défaut : none).
+--max-redirect : Nombre maximum de redirections autorisées par page.
+--proxy-user=USER : Définit USER comme nom d'utilisateur de proxy.
+--proxy-password=PASS : Définit PASS comme mot de passe de proxy.
+--referer=URL : Inclut l'en-tête Referer: URL dans la requête HTTP.
+--save-headers : Enregistre les en-têtes HTTP dans un fichier.
+-U, --user-agent=AGENT : Se présente comme AGENT au lieu de Wget/VERSION.
+--no-http-keep-alive : Désactive HTTP keep-alive (connexions persistantes).
+--no-cookies : N'utilise pas les cookies.
+--load-cookies=FILE : Charge les cookies depuis le fichier FILE avant la session.
+--save-cookies=FILE : Enregistre les cookies dans le fichier FILE après la session.
+--keep-session-cookies : Charge et enregistre les cookies de session (non permanents).
+--post-data=STRING : Utilise la méthode POST ; envoie STRING comme données.
+--post-file=FILE : Utilise la méthode POST ; envoie le contenu du fichier FILE.
+--method=HTTPMethod : Utilise la méthode HTTPMethod dans la requête.
+--body-data=STRING : Envoie STRING comme données. --method DOIT être défini.
+--body-file=FILE : Envoie le contenu du fichier FILE. --method DOIT être défini.
+--content-disposition : Respecte l'en-tête Content-Disposition lors du choix des noms de fichiers locaux (EXPÉRIMENTAL).
+--content-on-error : Affiche le contenu reçu en cas d'erreur serveur.
+--auth-no-challenge : Envoie les informations d'authentification HTTP Basic sans attendre le défi du serveur.
+Options HTTPS (SSL/TLS)
+--secure-protocol=PR : Choisit le protocole sécurisé, l'un de auto, SSLv2, SSLv3, TLSv1, TLSv1_1, TLSv1_2, TLSv1_3, et PFS.
+--https-only : Suit uniquement les liens HTTPS sécurisés.
+--no-check-certificate : Ne valide pas le certificat du serveur.
+--certificate=FILE : Fichier de certificat client.
+--certificate-type=TYPE : Type de certificat client, PEM ou DER.
+--private-key=FILE : Fichier de clé privée.
+--private-key-type=TYPE : Type de clé privée, PEM ou DER.
+--ca-certificate=FILE : Fichier avec le bundle de certificats d'autorité (CA).
+--ca-directory=DIR : Répertoire où la liste des CA est stockée.
+--crl-file=FILE : Fichier avec le bundle de listes de révocation de certificats (CRL).
+--pinnedpubkey=FILE/HASHES : Fichier de clé publique (PEM/DER) ou liste de hachages sha256 base64 pour vérifier le pair.
+--random-file=FILE : Fichier avec des données aléatoires pour semer le PRNG SSL.
+Options HSTS
+--no-hsts : Désactive HSTS.
+--hsts-file : Chemin vers la base de données HSTS (remplace la valeur par défaut).
+Options FTP
+--ftp-user=USER : Définit l'utilisateur FTP à USER.
+--ftp-password=PASS : Définit le mot de passe FTP à PASS.
+--no-remove-listing : Ne pas supprimer les fichiers .listing.
+--no-glob : Désactive le globbing des noms de fichiers FTP.
+--no-passive-ftp : Désactive le mode de transfert "passif".
+--preserve-permissions : Préserve les permissions des fichiers distants.
+--retr-symlinks : Lors du parcours récursif, obtient les fichiers liés (pas les répertoires).
+Options FTPS
+--ftps-implicit : Utilise FTPS implicite (port par défaut 990).
+--ftps-resume-ssl : Reprend la session SSL/TLS commencée dans la connexion de contrôle lors de l'ouverture d'une connexion de données.
+--ftps-clear-data-connection : Chiffre uniquement le canal de contrôle ; toutes les données seront en clair.
+--ftps-fallback-to-ftp : Rechute vers FTP si FTPS n'est pas pris en charge sur le serveur cible.
+Options WARC
+--warc-file=FILENAME : Enregistre les données de demande/réponse dans un fichier .warc.gz.
+--warc-header=STRING : Insère STRING dans l'enregistrement warcinfo.
+--warc-max-size=NUMBER : Définit la taille maximale des fichiers WARC à NUMBER.
+--warc-cdx : Écrit des fichiers d'index CDX.
+--warc-dedup=FILENAME : Ne stocke pas les enregistrements listés dans ce fichier CDX.
+--no-warc-compression : Ne compresse pas les fichiers WARC avec GZIP.
+--no-warc-digests : Ne calcule pas les sommes de contrôle SHA1.
+--no-warc-keep-log : Ne stocke pas le fichier journal dans un enregistrement WARC.
+--warc-tempdir=DIRECTORY : Emplacement pour les fichiers temporaires créés par l'écrivain WARC.
+Téléchargement Récursif
+-r, --recursive : Spécifie un téléchargement récursif.
+-l, --level=NUMBER : Profondeur maximale de récursion (inf ou 0 pour infini).
+--delete-after : Supprime les fichiers localement après les avoir téléchargés.
+-k, --convert-links : Modifie les liens dans les documents HTML ou CSS téléchargés pour qu'ils pointent vers des fichiers locaux.
+--convert-file-only : Convertit uniquement la partie fichier des URL (généralement le nom de base).
+--backups=N : Avant d'écrire le fichier X, effectue jusqu'à N fichiers de sauvegarde.
+-K, --backup-converted : Avant de convertir le fichier X, le sauvegarde sous X.orig.
+-m, --mirror : Raccourci pour -N -r -l inf --no-remove-listing.
+-p, --page-requisites : Télécharge toutes les images, etc., nécessaires pour afficher la page HTML.
+--strict-comments : Active le traitement strict des commentaires HTML (SGML).
+Acceptation/Rejet Récursif
+-A, --accept=LIST : Liste séparée par des virgules des extensions acceptées.
+-R, --reject=LIST : Liste séparée par des virgules des extensions rejetées.
+--accept-regex=REGEX : Expression régulière correspondant aux URLs acceptées.
+--reject-regex=REGEX : Expression régulière correspondant aux URLs rejetées.
+--regex-type=TYPE : Type d'expression régulière (posix ou pcre).
+-D, --domains=LIST : Liste séparée par des virgules des domaines acceptés.
+--exclude-domains=LIST : Liste séparée par des virgules des domaines rejetés.
+--follow-ftp : Suit les liens FTP à partir des documents HTML.
+--follow-tags=LIST : Liste séparée par des virgules des balises HTML suivies.
+--ignore-tags=LIST : Liste séparée par des virgules des balises HTML ignorées.
+-H, --span-hosts : Va sur des hôtes étrangers lors de la récupération récursive.
+-L, --relative : Suit uniquement les liens relatifs.
+-I, --include-directories=LIST : Liste des répertoires autorisés.
+--trust-server-names : Utilise le nom spécifié par la redirection de l'URL comme dernier composant.
+-X, --exclude-directories=LIST : Liste des répertoires exclus.
+-np, --no-parent : Ne pas monter au répertoire parent.
