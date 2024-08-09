@@ -1,1 +1,0 @@
-MsgBox "Mise a jour des module terminer", vbInformation, "Mise a jour"
