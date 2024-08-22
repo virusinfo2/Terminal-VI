@@ -15,3 +15,4 @@
 | `%wget%`     | Outil de téléchargement de fichiers à partir du web utilisant des protocoles comme HTTP, HTTPS et FTP.     | `wget.exe`                            | Utilisé pour télécharger des fichiers depuis le web ou automatiser le téléchargement de contenu.                    |
 
 ![Texte alternatif](Img/OIG3%20(2).jpg)
+<img src="Img/OIG3%20(2).jpg" alt="Texte alternatif" width="300"/>
