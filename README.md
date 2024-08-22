@@ -13,4 +13,5 @@
 | `%CRC32%`    | Outil pour calculer le code de redondance cyclique (CRC32) d'un fichier.                                    | `crc32.exe` (peut nécessiter un utilitaire tiers sur Windows) | Utilisé pour vérifier l'intégrité des fichiers en calculant et en comparant les valeurs CRC32.                      |
 | `%nircmdc%`  | Outil de ligne de commande pour effectuer diverses tâches système, comme manipuler les fenêtres, ajuster le volume, etc. | `nircmd.exe`                          | Pratique pour automatiser des tâches administratives ou contrôler des aspects de l'interface utilisateur à partir de la ligne de commande. |
 | `%wget%`     | Outil de téléchargement de fichiers à partir du web utilisant des protocoles comme HTTP, HTTPS et FTP.     | `wget.exe`                            | Utilisé pour télécharger des fichiers depuis le web ou automatiser le téléchargement de contenu.                    |
+
 ![Texte alternatif](Img/OIG3%20(2).jpg)
