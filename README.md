@@ -14,5 +14,5 @@
 | `%nircmdc%`  | Outil de ligne de commande pour effectuer diverses tâches système, comme manipuler les fenêtres, ajuster le volume, etc. | `nircmd.exe`                          | Pratique pour automatiser des tâches administratives ou contrôler des aspects de l'interface utilisateur à partir de la ligne de commande. |
 | `%wget%`     | Outil de téléchargement de fichiers à partir du web utilisant des protocoles comme HTTP, HTTPS et FTP.     | `wget.exe`                            | Utilisé pour télécharger des fichiers depuis le web ou automatiser le téléchargement de contenu.                    |
 
-<img src="Img/OIG3%20(2).jpg" alt="Texte alternatif" width="400"/>
-<img src="Img/OIG4.jpg" alt="Texte alternatif" width="400"/>
+<img src="Img/OIG3%20(2).jpg" alt="Texte alternatif" width="400" style="display: inline-block;"/>
+<img src="Img/OIG4.jpg" alt="Texte alternatif" width="400" style="display: inline-block;"/>
