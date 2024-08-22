@@ -1,4 +1,4 @@
-<p style="font-size: 500%;">V 0.00.04</p>
+<p style="font-size: 800%;">V 0.00.04</p>
 
 # Liste des API
 
