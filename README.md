@@ -23,4 +23,4 @@
 
 | **Version** | **Ajouté**                         | **Correction et Optimisation**  | **Période**                                                                                                      |
 |-------------|------------------------------------|---------------------------------|---------------------------|
-|0.00.04      |http_code.bat                       | Optimisation de upgrade         |12/05/2024 - 02/09/2024    |
+|0.00.04      |http_code.bat                       | Optimisation de c.upgrade, c.update, c.apt*         |12/05/2024 - 02/09/2024    |
