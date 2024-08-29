@@ -1,1 +1,0 @@
-MsgBox "Erreur : Impossible de se connecter au serveur. Veuillez verifier votre connexion Internet.", vbExclamation + vbOKOnly, "connexion serveur"

@@ -1,1 +1,0 @@
-MsgBox "Erreur : L'utilisateur a refusé l'autorisation d'exécuter le script en tant qu'administrateur. Le terminal risque d'être instable.", vbExclamation + vbOKOnly, "Erreur d'autorisation"

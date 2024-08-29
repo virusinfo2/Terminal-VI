@@ -1,1 +1,0 @@
-MsgBox "Erreur de boot : Le systeme est corrompu ou a été modifié.", vbCritical + vbOKOnly, "sécurité de BOOT"

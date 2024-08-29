@@ -1,1 +1,0 @@
-MsgBox "Erreur : Le fichier en cours n'a pas été trouvé.", vbCritical + vbOKOnly, "Erreur de recherche"

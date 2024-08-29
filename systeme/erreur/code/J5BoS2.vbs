@@ -1,1 +1,0 @@
-MsgBox "Erreur : J5BoS2.", vbCritical + vbOKOnly, "Erreur"
