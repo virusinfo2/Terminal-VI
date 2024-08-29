@@ -1,0 +1,1 @@
+MsgBox "Erreur : L'un des fichiers refuse sa suppression.", vbExclamation + vbOKOnly, "Erreur d'autorisation"

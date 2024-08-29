@@ -1,0 +1,1 @@
+MsgBox "Erreur du serveur : Le serveur manque des fichiers.", vbCritical + vbOKOnly, "Erreur du serveur"

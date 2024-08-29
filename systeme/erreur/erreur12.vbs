@@ -1,0 +1,1 @@
+MsgBox "Erreur : L'un des fichiers du firmware refuse sa suppression.", vbExclamation + vbOKOnly, "Erreur d'autorisation"

@@ -1,0 +1,55 @@
+  //EXTENSION//
+
+ ext list = voire la liste des extensions installer
+
+ ext <extension> = lancer une extension . exemple: ext speedtest
+
+ ext guide = aide de creation d'extension
+
+ apt install <extension> = installer des extensions . exemple: apt install WinActivate
+
+ apt remove <extension> = supprimer une extension . exemple: apt remove speedtest
+
+  //VERIFICATION//
+
+ file = faire un test de fichier du systeme
+
+ view file = afficher les tests de fichier
+
+
+  //NETTOYAGE//
+
+ purge <option> = faire une purge du systeme . exemple: purge all
+
+  //MISE A JOUR//
+
+ version = affiche votre version
+
+ update = mettre a jour le Terminal-VI
+
+ upgrade = mettre a jours les extensions
+
+  //AFFICHAGE//
+
+ couleur = changer de couleur
+
+  //GESTION//
+
+ admin = pour accéder au panel admin ( code: 1234 )
+
+ //INFORMATION//
+
+ history = afficher l'historique des commandes
+
+  //AUTRE//
+ fond <option> = changer de fond d'écran . exemple: fond rick-roll_gun
+
+ FinanMiner = soutenir les projets
+
+  //SUPPORT//
+
+ help = aide
+
+ support = support en ligne
+
+.
