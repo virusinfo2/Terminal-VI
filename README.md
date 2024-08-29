@@ -1,4 +1,4 @@
-<h1>V 0.00.04</h1>
+<h1>V 0.00.05</h1>
 
 <h2>Liste des API</h2>
 
@@ -24,3 +24,4 @@
 | **Version** | **Ajouté**                         | **Correction et Optimisation**  | **Période**                                                                                                      |
 |-------------|------------------------------------|---------------------------------|---------------------------|
 |0.00.04      |http_code.bat (déterminer les code serveur)              | Optimisation de c.upgrade, c.update, c.apt         |12/05/2024 - 02/09/2024    |
+|0.00.04      |%http_code.bat% <URL> Gestion (déterminer les code serveur et mettre l'erreur si pas 200),%checksums_sha256% <DOSSIER RACINE DES FICHIER A TESTER> Gestion (vas tester les hash des fichiers de "checksums.sha256" a la racine , Boot Tasks, | Optimisation de c.upgrade, c.update, c.apt         |12/05/2024 - 02/09/2024    |
