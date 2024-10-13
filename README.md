@@ -1,3 +1,7 @@
+# ⚠️ Ce projet est abandonné
+
+**Ce projet n'est plus maintenu et ne recevra plus de mises à jour.**  
+Merci à tous ceux qui l'ont utilisé ou contribué.
 <h1>V 0.00.05</h1>
 
 <h2>Liste des API</h2>
